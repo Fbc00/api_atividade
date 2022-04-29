@@ -103,7 +103,7 @@ class List_atividades(Resource):
         return response
 
 # retornas todas as atividades e seus usuarios
-# Atividades.pessoa.nome os priemeiros estavam dando erro de None e acabei tendo que fazer a filtragrem do erro
+
     def get(self):
         response = []
         atividades = Atividades.query.all()
